@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 This is a branch 
-=======
-This is master
->>>>>>> master
