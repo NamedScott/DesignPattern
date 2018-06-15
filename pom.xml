@@ -13,6 +13,7 @@
         <module>module-concurrent</module>
         <module>module-web</module>
         <module>module-io-test</module>
+        <module>module-base</module>
     </modules>
 
 

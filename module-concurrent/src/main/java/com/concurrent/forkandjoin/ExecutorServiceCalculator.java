@@ -80,7 +80,7 @@ public class ExecutorServiceCalculator implements  Calculator {
             }
         }
         pool.shutdown();
-        pool.shutdownNow();
+
         return totalValue;
     }
 
