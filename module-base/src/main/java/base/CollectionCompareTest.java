@@ -39,7 +39,7 @@ public class CollectionCompareTest {
     }
 
 
-    private static class User {
+    private  class User {
 
         private Integer age ;
 
