@@ -30,7 +30,7 @@ public class CorTest {
 
     @Test
     public void test() {
-        MyRequestParam param = new MyRequestParam("A");
+       /* MyRequestParam param = new MyRequestParam("A");
         chain.doChain(param, chain);
         System.out.println("-----------------------------------");
         chain.setCursor(0);
@@ -39,7 +39,8 @@ public class CorTest {
         System.out.println("-----------------------------------");
         chain.setCursor(0);
         param.setRequestStr("C");
-        chain.doChain(param, chain);
+        chain.doChain(param, chain);*/
+        String.format("ttt%s",123);
     }
 
 
