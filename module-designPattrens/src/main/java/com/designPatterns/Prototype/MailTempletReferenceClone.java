@@ -15,11 +15,21 @@ public class MailTempletReferenceClone implements Cloneable{
 
     private String address;
 
+    private Integer wordSize;
+
     private MailBag mailBag = new MailBag();
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    public Integer getWordSize() {
+        return wordSize;
+    }
+
+    public void setWordSize(Integer wordSize) {
+        this.wordSize = wordSize;
     }
 
     public MailBag getMailBag() {

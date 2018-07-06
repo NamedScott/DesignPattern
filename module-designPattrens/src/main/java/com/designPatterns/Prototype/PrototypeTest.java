@@ -23,10 +23,14 @@ public class PrototypeTest {
         mail.setAddress("北京市海淀区");
         mail.setSubject("offer");
         mail.setMailBag("附件1",10);
+        mail.setWordSize(222);
         MailTempletReferenceClone mail1 = (MailTempletReferenceClone)mail.clone();
         mail.setMailBag("附件2",20);
+        mail.setWordSize(333);
         System.out.println(ToStringBuilder.reflectionToString(mail.getMailBag()));
         System.out.println(ToStringBuilder.reflectionToString(mail1.getMailBag()));
+        System.out.println(mail.getWordSize());
+        System.out.println(mail1.getWordSize());
 
     }
 
